@@ -17,7 +17,7 @@ import ProtectedRoute from "./ProtectedRoute";
 import InfoTooltip from "./InfoTooltip";
 import success from "../images/success.png";
 import unSuccess from '../images/unsuccess.png';
-import * as Auth from "./Auth"
+import * as Auth from "../utils/Auth"
 
 function App() {
   const history = useHistory()
